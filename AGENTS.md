@@ -15,6 +15,8 @@ original, public-safe, and advisory by default.
 - Do not add private examples, copied skill text, secrets, or invented metrics.
 - Keep Clear English independent. Do not claim formal language-standard
   conformance or add a copied controlled dictionary.
+- Write new commit messages in plain, natural language about the actual change.
+  Follow required repository conventions. Do not rewrite existing history for style.
 
 ## Review changes
 

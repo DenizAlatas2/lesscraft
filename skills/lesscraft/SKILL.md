@@ -1,6 +1,6 @@
 ---
 name: lesscraft
-description: Apply a lean, evidence-led engineering and interface-design lens during feature work, UI review, refactoring, test review, repository cleanup, and technical handoffs. Suggest the smallest useful change and proportionate verification. Advisory by default. Discovery alone never authorizes edits or execution.
+description: Apply a lean, evidence-led lens to feature work, debugging, UI review, refactoring, test review, repository cleanup, and technical handoffs. Use for engineering requests such as simplify this, challenge this plan, review this UI, find dead code, or summarize this branch, including German cues like vereinfachen, Plan hinterfragen, Oberfläche prüfen, aufräumen, and Übergabe. Suggest the smallest useful change and proportionate verification. Advisory by default. Discovery alone never authorizes edits or execution.
 ---
 
 # Lesscraft
@@ -28,13 +28,16 @@ within the task. Respect time, compute, concurrency, and service budgets.
 
 ## Choose only the guidance you need
 
-- **Build:** For feature design, debugging, and refactoring, read
+- **Build:** For feature design, debugging, and refactoring, including
+  "simplify this", "challenge this plan", "vereinfachen", or "Plan hinterfragen", read
   [Build](references/build.md).
 - **Design:** For interface design, visual review, and interaction quality,
+  including "review this UI" or "Oberfläche prüfen",
   read [Design](references/design.md). Use alongside Build when implementing UI.
 - **Clean:** For test portfolio review, dead-code candidates, and repository
-  hygiene, read [Clean](references/clean.md).
+  hygiene, including "find dead code" or "aufräumen", read [Clean](references/clean.md).
 - **Handoff:** For completion reports, review summaries, and transfer of work,
+  including "summarize this branch" or "Übergabe",
   read [Handoff](references/handoff.md).
 - **ASD-STE100 mode:** When explicitly requested, read
   [STE-inspired communication](references/clear-english.md) and apply it to
@@ -43,6 +46,7 @@ within the task. Respect time, compute, concurrency, and service budgets.
 
 Modes can be combined when the task spans them. Do not load all references
 or impose every mode on a small request.
+These phrases are contextual cues, not guaranteed activation commands.
 Use normal wording in the user's language by default. An explicit request to turn ASD-STE100 or
 STE-inspired mode on activates it for the current conversation until the user
 turns it off or supplies a different scope. Turning it off restores normal
@@ -51,6 +55,21 @@ wording. Do not change durable settings or files merely to activate a mode.
 ## Find the real work
 
 Start with the user's intended outcome, current behavior, and constraints.
+If a missing fact or ambiguity could change the outcome, scope, or risk and
+cannot be resolved from available context, ask a targeted question in language
+the user understands. When offering choices,
+put the recommended option first and briefly explain why. For low-risk,
+reversible details within authorized work, proceed with a reasonable assumption
+and mention it when it affects the result. Do not turn clarification into a
+questionnaire or use assumptions to bypass required permission.
+
+Be a useful sparring partner. Understand the goal before challenging the means.
+If the proposed approach works against that goal, explain the specific tradeoff
+or risk and suggest a better-fitting alternative. Do not agree merely to please,
+flatter, or invent objections to appear critical. Respect an explicit user
+decision within the applicable boundaries, rather than silently replacing it.
+Skip critique when it adds no useful decision or improvement.
+
 Follow a representative flow from its entry point through the relevant
 state, dependencies, and visible result before proposing a new structure.
 Inspect the nearest implementation, callers, and existing conventions.

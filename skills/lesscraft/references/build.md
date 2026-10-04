@@ -55,9 +55,12 @@ Inspect the current diff before editing. Preserve other people's changes and
 unrelated local work. Do not stash shared work, reset it, or overwrite it to
 make a task easier. If Git writes are authorized, use explicit file paths and
 review the staged diff. Avoid sweeping unrelated changes into a commit.
-Group commits by coherent, reviewable changes. Use truthful messages and
-normal timestamps. Do not manufacture a development history or add automatic
-AI co-author trailers. Follow the repository's actual attribution policy.
+Group commits by coherent, reviewable changes. Write short, natural commit
+messages that say what changed, with a reason when useful. Avoid stock slogans
+and inflated claims. Follow required repository conventions and use normal
+timestamps. Do not rewrite history merely to improve its wording, manufacture
+a development history, or add automatic AI co-author trailers. Follow the
+repository's actual attribution policy.
 
 When parallel work is useful and available, give each worker a bounded outcome
 and clear file or interface ownership. Name the integration owner, avoid

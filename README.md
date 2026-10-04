@@ -46,6 +46,8 @@ Built from recurring lessons in AI-assisted development: extra layers arrive fas
 
 Use one mode or combine the relevant ones. You do not need a new process for every small change.
 
+Natural requests such as "simplify this", "challenge this plan", "review this UI", or "Übergabe" help identify the relevant mode in context. Lesscraft asks focused questions when missing facts matter, recommends an option with reasons, and challenges an approach when a concrete tradeoff deserves attention. It respects your decision and keeps routine details moving within the authorized scope.
+
 ![Understand the real flow, reuse what fits, propose a useful change, and verify proportionately when authorized.](assets/lesscraft-flow.svg)
 
 ## Start here
