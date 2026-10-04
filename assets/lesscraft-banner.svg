@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+  <title id="title">Lesscraft</title>
+  <desc id="desc">Build what matters. Leave less behind. Build, Clean, Design, Handoff. Advisory skills for coding agents.</desc>
+  <rect width="1440" height="520" rx="28" fill="#171b1c"/>
+  <path d="M1000 60h300v300h-300zM1045 105h210v210h-210zM1090 150h120v120h-120z" fill="none" stroke="#3b4646" stroke-width="2"/>
+  <path d="M1112 164v84h76" fill="none" stroke="#c8f083" stroke-width="20" stroke-linecap="square"/>
+  <circle cx="1300" cy="360" r="7" fill="#c8f083"/>
+  <text x="74" y="80" fill="#c8f083" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="4">LESS MACHINERY. MORE INTENT.</text>
+  <text x="68" y="210" fill="#f3f1e9" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="118" letter-spacing="-6">Lesscraft</text>
+  <text x="74" y="285" fill="#f3f1e9" font-family="Arial, Helvetica, sans-serif" font-size="34">Build what matters. Leave less behind.</text>
+  <text x="75" y="337" fill="#aebcba" font-family="Arial, Helvetica, sans-serif" font-size="21">A practical lens for code, tests, design, and handoffs.</text>
+  <path d="M74 390H1366" stroke="#3b4646"/>
+  <g fill="#f3f1e9" font-family="Arial, Helvetica, sans-serif" font-size="21">
+    <text x="75" y="452">01  Build</text><text x="385" y="452">02  Clean</text><text x="695" y="452">03  Design</text><text x="1005" y="452">04  Handoff</text>
+  </g>
+</svg>

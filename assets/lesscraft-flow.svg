@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
+  <title id="title">A smaller path to a useful result</title>
+  <desc id="desc">Understand the real flow. Reuse what fits. Propose the smallest useful change. Verify proportionately when authorized. No automatic edits and no invented savings.</desc>
+  <rect width="1440" height="360" rx="24" fill="#f1f0e9"/>
+  <text x="52" y="65" fill="#192323" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">A smaller path to a useful result</text>
+  <g stroke="#acb5ad" stroke-width="2"><path d="M325 167h42m-10-8 10 8-10 8M670 167h42m-10-8 10 8-10 8M1015 167h42m-10-8 10 8-10 8"/></g>
+  <g fill="#fff" stroke="#d0d6cd"><rect x="52" y="100" width="270" height="138" rx="12"/><rect x="397" y="100" width="270" height="138" rx="12"/><rect x="742" y="100" width="270" height="138" rx="12"/><rect x="1087" y="100" width="300" height="138" rx="12"/></g>
+  <g fill="#192323" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700"><text x="76" y="145">Understand</text><text x="421" y="145">Reuse</text><text x="766" y="145">Propose</text><text x="1111" y="145">Verify</text></g>
+  <g fill="#495753" font-family="Arial, Helvetica, sans-serif" font-size="19"><text x="76" y="181">Follow the real flow.</text><text x="76" y="210">Keep the constraints.</text><text x="421" y="181">Use what already fits.</text><text x="421" y="210">Skip speculative layers.</text><text x="766" y="181">Make the change useful.</text><text x="766" y="210">Explain the tradeoff.</text><text x="1111" y="181">Match checks to risk.</text><text x="1111" y="210">Run only when authorized.</text></g>
+  <text x="52" y="301" fill="#495753" font-family="Arial, Helvetica, sans-serif" font-size="19">Suggestions first. Evidence over test counts. No percentage promises.</text>
+</svg>
