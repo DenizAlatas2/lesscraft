@@ -105,6 +105,8 @@ semicolons, or decorative middle-dot separators in ordinary prose. Use
 sentences, commas, or real lists instead. Ordinary list markers are fine.
 Preserve necessary punctuation in code, commands, identifiers, exact quotes,
 formal source text, and licenses. A style preference must not change meaning.
+When prose needs a closer edit, use [Natural writing](references/natural-writing.md)
+across modes. Keep the reader's needs, supported claims, and user voice intact.
 
 For meaningful findings, explain the observed issue, the smallest useful
 change, and how to verify it. Mention a tradeoff or uncertainty when it could
