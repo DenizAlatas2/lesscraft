@@ -5,7 +5,7 @@ original, public-safe, and advisory by default.
 
 ## Working boundaries
 
-- The skill lives in `skills/lesscraft/`; its entry point is `SKILL.md`.
+- The skill lives in `skills/lesscraft/`. Its entry point is `SKILL.md`.
 - Shared decisions and authorization boundaries belong in the entry point.
   Put conditional guidance in the relevant linked reference.
 - Keep automatic discovery enabled. Discovery must not grant permission to
@@ -13,14 +13,14 @@ original, public-safe, and advisory by default.
 - Respect explicit user authorization already given without expanding its
   scope. Repository maintenance instructions are not permission to publish.
 - Do not add private examples, copied skill text, secrets, or invented metrics.
-- Keep Clear English independent; do not claim formal language-standard
+- Keep Clear English independent. Do not claim formal language-standard
   conformance or add a copied controlled dictionary.
 
 ## Review changes
 
 Check frontmatter, relative links, and consistency between the entry point,
 references, metadata, and README. Validate with an available Agent Skills
-validator when practical; report what it checks and what it does not.
+validator when practical. Report what it checks and what it does not.
 
 For material behavior changes, exercise realistic requests in an isolated
 workspace. Review outcomes rather than testing for exact prose or headings.

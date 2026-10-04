@@ -1,0 +1,6 @@
+interface:
+  display_name: "Lesscraft"
+  short_description: "Lean engineering advice, grounded in real behavior"
+  default_prompt: "Use $lesscraft to review this change and propose the smallest useful improvement with proportionate verification."
+policy:
+  allow_implicit_invocation: true
