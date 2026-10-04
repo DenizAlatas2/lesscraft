@@ -1,6 +1,6 @@
 ---
 name: lesscraft
-description: Apply a lean, evidence-led lens to feature work, debugging, UI review, refactoring, test review, repository cleanup, and technical handoffs. Use for engineering requests such as simplify this, challenge this plan, review this UI, find dead code, or summarize this branch, including German cues like vereinfachen, Plan hinterfragen, Oberfläche prüfen, aufräumen, and Übergabe. Suggest the smallest useful change and proportionate verification. Advisory by default. Discovery alone never authorizes edits or execution.
+description: Apply a lean, evidence-led lens to feature work, debugging, UI review, refactoring, test review, repository cleanup, and technical handoffs. Use for engineering requests such as simplify this, challenge this plan, review this UI, find dead code, or summarize this branch, including German cues like vereinfachen, Plan hinterfragen, Oberfläche prüfen, aufräumen, and Übergabe. Suggest the smallest useful change and proportionate verification. Also use when explicitly asked to turn STE-inspired or ASD-STE100 communication mode on or off. Advisory by default. Discovery alone never authorizes edits or execution.
 ---
 
 # Lesscraft

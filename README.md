@@ -126,7 +126,7 @@ It does not remove correctness, accessibility, compatibility, or security requir
 
 ## Optional: STE-inspired agent communication
 
-Ask: **“Turn ASD-STE100 mode on for this conversation.”**
+After invoking Lesscraft, ask: **“Turn ASD-STE100 mode on for this conversation.”**
 
 The agent then uses concise, explicit English in its own explanations, questions, progress updates, and handoffs across all modes. Ask **“Turn ASD-STE100 mode off”** to return to normal wording.
 
