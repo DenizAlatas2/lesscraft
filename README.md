@@ -6,6 +6,14 @@
 
 A small, advisory skill for coding agents. Build simpler solutions, keep useful tests, remove proven clutter, and leave a clear handoff.
 
+Does your agent turn a small change into a pile of code you never asked for? Lesscraft gives it guidance for situations like these:
+
+- A one-off feature gets a new framework. Ask it to trace the existing flow and propose a simpler change.
+- A harmless refactor breaks tests that only check private function names. Ask which tests protect real behavior before removing any.
+- A handoff lists everything the agent touched but leaves you guessing what works. Ask for implemented behavior, checks actually run, and open issues.
+
+After installing and invoking the skill, try: **"Review this plan. What can we reuse, what is unnecessary, and what still needs a test? Suggest changes only."**
+
 ## Let your agent install it
 
 Copy this prompt into Codex, Claude Code, or another coding agent with file access. The agent can do the installation for you, subject to its permissions.
