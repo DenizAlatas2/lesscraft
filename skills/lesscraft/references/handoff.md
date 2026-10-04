@@ -28,3 +28,7 @@ For a handoff across people or systems, include only the necessary context
 and authorized information. Remove secrets, private data, and irrelevant
 internal history. Do not make a new status file unless the user requested it
 or an authorized repository workflow requires one.
+
+For an explicitly authorized comparison of committed changes against allowed
+paths, see the optional [Scope check](scope-check.md). Report its omitted
+working-tree changes and other limits with the result.

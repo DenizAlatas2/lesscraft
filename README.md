@@ -124,9 +124,13 @@ This is an **STE-inspired communication mode**, not validated ASD-STE100 conform
 
 The official standard includes controlled vocabulary and writing rules. This package does not include its manual or dictionary. See the [official ASD-STE100 overview](https://www.asd-ste100.org/about_STE.html).
 
+## Optional scope check
+
+The [scope-check helper](skills/lesscraft/references/scope-check.md) compares two explicitly chosen committed trees against allowed paths. It requires Python and Git only if you choose to run it. Staged, unstaged, and untracked changes are omitted. An optional report-only Stop command supports Codex and Claude Code without blocking completion. Nothing installs or enables hooks automatically.
+
 ## Small by design
 
-No runtime service. No API key. No installer to execute. No mandatory dependency. The skill is Markdown instructions plus small host metadata.
+No runtime service. No API key. No installer to execute. No mandatory dependency. The core skill is Markdown instructions plus small host metadata. The optional scope-check helper is a standalone Python script.
 
 `AGENTS.md` in this repository guides contributors. It is not a substitute for installing the skill into your agent's discovery directory.
 
