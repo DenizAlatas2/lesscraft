@@ -33,6 +33,13 @@ Compare alternatives only when they have a meaningful tradeoff. A short
 explanation of why the current structure is enough is often the best design.
 Do not equate fewer lines with simpler behavior or lower maintenance cost.
 
+Prefer clear names and structure over comments that restate the code. Keep
+comments brief and focused on non-obvious reasons, constraints, or invariants.
+Do not put progress diaries or chat explanations in source files. Avoid
+boilerplate comment blocks that add no useful information. Preserve required
+license and copyright notices, public API documentation required by project
+conventions, and useful safety, units, threading, or complex-algorithm rationale.
+
 ## Match verification to the change
 
 Propose the important happy path and the failure or edge case most likely

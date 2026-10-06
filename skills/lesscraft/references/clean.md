@@ -20,6 +20,11 @@ evidence is strong enough for the risk. Otherwise recommend a targeted check
 or retain it. Do not delete compatibility paths because current local callers
 do not exercise them.
 
+Apply [Build's comment guidance](build.md) within the authorized cleanup scope.
+Recommend trimming redundant or stale narration only after checking its purpose.
+Retain useful rationale, contracts, and required notices. Do not blanket-delete
+comments or use a comment-count target.
+
 ## Tests: compare failures, not counts
 
 Map a candidate test to the behavior or failure it protects. Identify any
