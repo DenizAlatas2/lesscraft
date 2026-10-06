@@ -1,13 +1,17 @@
 # Maintaining Lesscraft
 
-Lesscraft is a portable engineering guidance skill. Keep the package small,
-original, public-safe, and advisory by default.
+Lesscraft is portable engineering guidance with a persistent core and optional
+skill workflows. Keep the package small, original, public-safe, and advisory
+by default.
 
 ## Working boundaries
 
 - The skill lives in `skills/lesscraft/`. Its entry point is `SKILL.md`.
-- Shared decisions and authorization boundaries belong in the entry point.
-  Put conditional guidance in the relevant linked reference.
+- Shared principles and authorization boundaries belong in `core.md`.
+  The skill entry point must load it. Put conditional workflow detail in
+  the relevant linked reference. Preserve existing host instructions during
+  installation. The repository root AGENTS.md is contributor guidance, not
+  the core to install into another project.
 - Keep automatic discovery enabled. Discovery must not grant permission to
   edit, delete, run checks, commit, or publish.
 - Respect explicit user authorization already given without expanding its
@@ -21,7 +25,9 @@ original, public-safe, and advisory by default.
 ## Review changes
 
 Check frontmatter, relative links, and consistency between the entry point,
-references, metadata, and README. Validate with an available Agent Skills
+core, references, metadata, and README. Keep the complete core inside the
+copyable package. Installation fixture checks do not prove host loading or
+model behavior. Validate with an available Agent Skills
 validator when practical. Report what it checks and what it does not.
 
 For material behavior changes, exercise realistic requests in an isolated

@@ -17,7 +17,7 @@ identify authorship or promise any result from an AI detector.
   tone within the user's explicit style constraints. Do not add slang,
   personal stories, emotions, or opinions to manufacture a voice.
 
-For ordinary prose, follow the punctuation rule in `SKILL.md`: no em dashes,
+For ordinary prose, follow the punctuation rule in [the core](../core.md): no em dashes,
 en dashes, semicolons, or decorative inline middle dots. Real list bullets
 are fine. Preserve syntax in code, commands, identifiers, quotations, and
 formal source text. Do not silently rewrite user wording outside the requested

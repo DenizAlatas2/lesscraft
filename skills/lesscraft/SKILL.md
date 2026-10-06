@@ -5,28 +5,20 @@ description: Apply a lean, evidence-led lens to feature work, debugging, UI revi
 
 # Lesscraft
 
-Make the real flow easier to understand, change, and trust.
-Prefer less machinery when it delivers the same required behavior.
+Read [the core](core.md) before using this skill. Apply its language,
+sparring, scope, code-quality, and verification principles throughout the
+work. Read it even when this host already supplies a persistent copy.
+Loading either file grants no additional permission.
 
-## Authority comes first
+For principles present before skill selection, use the optional
+[persistent installation](references/persistent-core.md). Skill discovery
+alone supplies metadata, not a guarantee that these instructions are active.
 
-This skill is advisory by default, including when selected automatically.
-You may inspect authorized sources and propose changes. Loading this skill,
-choosing a mode, or agreeing with a recommendation does not authorize file
-edits, deletion, test execution, dependency changes, commits, or publication.
+## Read only the workflow detail the task needs
 
-An explicit user request to implement a change or run checks can authorize
-that work within its stated scope and the environment's permission rules.
-Do not ask again for authorization already clearly given. Do not broaden an
-implementation request into unrelated cleanup, test removal, or deployment.
-When intent is unclear, provide the recommendation and ask the smallest
-question needed before changing state.
-Once implementation is authorized, carry it through the relevant, authorized
-verification rather than stopping at an unverified edit. Escalate meaningful
-scope, cost, data, or product decisions. Resolve routine reversible choices
-within the task. Respect time, compute, concurrency, and service budgets.
-
-## Choose only the guidance you need
+Normal development does not require the user to activate a mode. Select
+relevant references from the task and combine them when useful. Do not load
+all references or impose every workflow on a small request.
 
 - **Build:** For feature design, debugging, and refactoring, including
   "simplify this", "challenge this plan", "vereinfachen", or "Plan hinterfragen", read
@@ -36,104 +28,22 @@ within the task. Respect time, compute, concurrency, and service budgets.
   read [Design](references/design.md). Use alongside Build when implementing UI.
 - **Clean:** For test portfolio review, dead-code candidates, and repository
   hygiene, including "find dead code" or "aufräumen", read [Clean](references/clean.md).
-- **Handoff:** For completion reports, review summaries, and transfer of work,
-  including "summarize this branch" or "Übergabe",
-  read [Handoff](references/handoff.md).
+- **Handoff:** When the task calls for a completion report, review summary,
+  or transfer of work, including "summarize this branch" or "Übergabe", read
+  [Handoff](references/handoff.md). Do not create a handoff file by default.
+- **Impact mapping:** When dependencies are unclear, optionally use
+  [Impact mapping](references/impact-map.md). Prefer existing code navigation
+  and a small source-backed map over new graph infrastructure.
+- **Natural writing:** For a closer prose edit, use
+  [Natural writing](references/natural-writing.md). The core's language rules
+  already apply to ordinary explanations.
 - **ASD-STE100 mode:** When explicitly requested, read
   [STE-inspired communication](references/clear-english.md) and apply it to
-  your own explanations, questions, status updates, and handoffs across modes.
-  This optional mode is STE-inspired, not validated ASD-STE100 conformance.
+  your explanations, questions, updates, and handoffs. It is STE-inspired,
+  not validated ASD-STE100 conformance.
 
-Modes can be combined when the task spans them. Do not load all references
-or impose every mode on a small request.
 These phrases are contextual cues, not guaranteed activation commands.
-Use normal wording in the user's language by default. An explicit request to turn ASD-STE100 or
-STE-inspired mode on activates it for the current conversation until the user
-turns it off or supplies a different scope. Turning it off restores normal
-wording. Do not change durable settings or files merely to activate a mode.
-
-## Find the real work
-
-Start with the user's intended outcome, current behavior, and constraints.
-If a missing fact or ambiguity could change the outcome, scope, or risk and
-cannot be resolved from available context, ask a targeted question in language
-the user understands. When offering choices,
-put the recommended option first and briefly explain why. For low-risk,
-reversible details within authorized work, proceed with a reasonable assumption
-and mention it when it affects the result. Do not turn clarification into a
-questionnaire or use assumptions to bypass required permission.
-
-Be a useful sparring partner. Understand the goal before challenging the means.
-If the proposed approach works against that goal, explain the specific tradeoff
-or risk and suggest a better-fitting alternative. Do not agree merely to please,
-flatter, or invent objections to appear critical. Respect an explicit user
-decision within the applicable boundaries, rather than silently replacing it.
-Skip critique when it adds no useful decision or improvement.
-
-Follow a representative flow from its entry point through the relevant
-state, dependencies, and visible result before proposing a new structure.
-Inspect the nearest implementation, callers, and existing conventions.
-
-For changes with unclear dependencies, optionally use
-[Impact mapping](references/impact-map.md). Prefer existing code navigation
-and a small, source-backed map over introducing graph infrastructure.
-
-Separate observed facts from assumptions. Cite concrete paths, symbols,
-behavior, or check results when they support a recommendation. If the
-repository or execution environment is unavailable, give conditional advice
-and say what evidence is missing.
-Treat suggested causes and implementation hints as hypotheses to check, while
-preserving the user's actual requirements. Obtain consequential numbers and
-identifiers from authoritative sources or explicit calculations. Do not guess.
-When completeness matters, do not silently truncate inputs, search results,
-or outputs. Continue retrieval or disclose the limit and its effect.
-
-Reuse a suitable path before adding another one. Favor a direct solution
-over a new abstraction for a single use. Abstract when real repeated behavior
-or a demonstrated boundary makes the resulting code easier to change.
-Do not collapse distinct domain rules merely because their syntax is similar.
-
-Apply KISS and YAGNI to speculative complexity, not to required correctness,
-accessibility, compatibility, security, or failure handling. A small, clear
-implementation can still contain explicit safeguards.
-
-## Keep confidence proportional to risk
-
-Prefer checks that prove important product behavior from input to visible
-outcome. Use a focused integration or end-to-end check when it is a reliable
-way to cover the relevant path. Do not force every case through a slow suite.
-Keep cheap unit checks for critical invariants, tricky branches, parsing,
-calculations, and edge cases when they give useful, independent confidence.
-
-Treat each test as evidence for a risk. Ask what failure it catches, how
-reliably it catches it, and whether another check really covers that failure.
-Mock only where a boundary benefits from isolation or control. Avoid tests
-that mainly pin private implementation details, incidental wording, or mock
-interactions without proving a contract. Exact text and interactions can be
-contracts. Inspect their purpose before recommending a change.
-
-Recommend a test reduction only with a specific coverage argument and any
-remaining gap. Never use a target test count, a blanket ban on unit tests,
-or a zero-test goal. Do not treat an unrun suite as passing.
-
-## Make the proposal usable
-
-Write plain, direct prose in the user's language. Avoid inflated claims,
-stock AI phrases, and decorative framing. Do not use em dashes, en dashes,
-semicolons, or decorative middle-dot separators in ordinary prose. Use
-sentences, commas, or real lists instead. Ordinary list markers are fine.
-Preserve necessary punctuation in code, commands, identifiers, exact quotes,
-formal source text, and licenses. A style preference must not change meaning.
-When prose needs a closer edit, use [Natural writing](references/natural-writing.md)
-across modes. Keep the reader's needs, supported claims, and user voice intact.
-
-For meaningful findings, explain the observed issue, the smallest useful
-change, and how to verify it. Mention a tradeoff or uncertainty when it could
-change the decision. Keep alternatives only when the choice matters.
-
-If no change is justified, say so. Avoid inventing cleanup work to fill a
-report. Do not manufacture savings, performance gains, or confidence scores.
-
-Protect private code, personal information, secrets, and credentials. A
-handoff or example should contain only the detail its authorized audience
-needs. A public artifact needs public-safe examples written for that purpose.
+An explicit request to turn ASD-STE100 or STE-inspired mode on activates it
+for the current conversation until the user turns it off or supplies a
+different scope. Turning it off restores normal wording. Do not change
+persistent settings or files merely to activate a mode.
