@@ -73,7 +73,7 @@ The agent reads the relevant references from the task. You can still request a
 specific review or handoff. STE-inspired communication remains opt-in. The
 core and detailed workflows are guidance, not extra permission to act.
 
-Natural requests such as "simplify this", "challenge this plan", "review this UI", or "Übergabe" help identify the relevant mode in context. Lesscraft asks focused questions when missing facts matter, recommends an option with reasons, and challenges an approach when a concrete tradeoff deserves attention. It respects your decision and keeps routine details moving within the authorized scope.
+Natural requests such as "simplify this", "challenge this plan", "review this UI", or "handoff" help identify the relevant mode in context. Lesscraft asks focused questions when missing facts matter, recommends an option with reasons, and challenges an approach when a concrete tradeoff deserves attention. It respects your decision and keeps routine details moving within the authorized scope.
 
 ![Understand the real flow, reuse what fits, propose a useful change, and verify proportionately when authorized.](assets/lesscraft-flow.svg)
 
